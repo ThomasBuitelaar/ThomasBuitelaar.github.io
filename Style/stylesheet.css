@@ -1,5 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
-    padding:10px;
+    padding:11px;
     background-color: #222;
     color: white;
     text-align: center;
@@ -7,7 +11,7 @@ header{
 }
 
 #selfie{
-    
+    width: 150px;
 }
 
 /*ul{
@@ -38,12 +42,14 @@ li a:hover{
 
 
 ul {
+    position: fixed;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
     margin-bottom: 10px;
+    top:0;
 }
 
 li {
