@@ -1,4 +1,16 @@
-ul{
+header{
+    padding:10px;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    font-size: 140%;
+}
+
+#selfie{
+    
+}
+
+/*ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,18 +26,24 @@ li a{
     display: block;
     color: white;
     text-align: center;
-    padding: 14 16px;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
+li a:hover{
+    background-color: #111;
+}
+
+*/
 
 
-/*ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    margin-bottom: 10px;
 }
 
 li {
@@ -43,5 +61,5 @@ li a {
 li a:hover {
     background-color: #111;
 }
-*/
+
 
