@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+    
+}
+
 @font-face{
     font-family: 'keep_calm';
     src: url('Style/Font/KeepCalm.ttf') format('truetype');
