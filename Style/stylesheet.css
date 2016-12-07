@@ -22,7 +22,7 @@ header{
     background-color: #222;
     color: white;
     text-align: center;
-    font-size:150%;
+    font-size:125%;
 }
 
 #selfie{
@@ -64,7 +64,7 @@ li a:hover{
 
 */
 
-
+@media only screen and (min-width: 720px){
 ul {
     list-style-type: none;
     margin: 0;
@@ -83,7 +83,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size:140%;
+    font-size:110%;
 }
 
 
@@ -102,3 +102,4 @@ li a:hover {
     from{background-color: #333;}
     to{background-color: #444;}
     }
+}
