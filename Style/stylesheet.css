@@ -64,7 +64,7 @@ li a:hover{
 
 */
 
-@media only screen and (min-width: 720px){
+/*@media only screen and (min-width: 720px){*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -102,4 +102,3 @@ li a:hover {
     from{background-color: #333;}
     to{background-color: #444;}
     }
-}
