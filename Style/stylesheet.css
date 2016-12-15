@@ -2,7 +2,17 @@
     margin: 0;
     padding: 0;
 }
+p{
+    color: white;
+}
 
+h2{
+    color: white;
+}
+
+h1{
+    color: white;
+}
 a{
     text-decoration: none;
     
@@ -25,6 +35,15 @@ header{
     font-size:125%;
 }
 
+footer{
+    font-size: 75%;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+    margin-bottom: 0px;
+    
+}
+
 #selfie{
     width: 150px;
 
@@ -37,7 +56,7 @@ header{
     margin: 10px;
     margin-left: 0;
     border-style: solid;
-    border-color: black;
+    border-color: white;
 }
 
 .content{
@@ -46,7 +65,7 @@ header{
 }
 
 body{
-
+background-color: black;
 }
 
 #calvijn{
