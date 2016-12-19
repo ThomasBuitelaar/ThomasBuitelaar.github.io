@@ -108,6 +108,8 @@ li a:hover {
     to{background-color: #444;}
 }
 
+/* This is the mobile version of the menu */
+
 @media (max-width: 600px){
 
     ul {
@@ -118,5 +120,9 @@ li a:hover {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+}
+
+header{
+    font-size: 75%;
 }
 }
