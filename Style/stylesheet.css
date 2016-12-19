@@ -71,6 +71,46 @@ background-color: #ece8e5;
 }
 
 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:110%;
+}
+
+
+
+li a.active{
+    background-color: #3a9cff;
+}
+
+li a:hover {
+    animation-name: fade;
+    animation-duration: 190ms;
+    background-color: #444;
+}
+
+ @keyframes fade{
+    from{background-color: #333;}
+    to{background-color: #444;}
+}
+
+@media (max-width: 600px){
+
+    ul {
     display: flex;
     flex-direction: column;
     list-style-type: none;
@@ -78,74 +118,5 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size:110%;
-}
-
-
-
-li a.active{
-    background-color: #3a9cff;
-}
-
-li a:hover {
-    animation-name: fade;
-    animation-duration: 190ms;
-    background-color: #444;
-}
-
- @keyframes fade{
-    from{background-color: #333;}
-    to{background-color: #444;}
-}
-
-@media only screen and (min-width: 600px;){
-
-    ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size:110%;
-}
-
-
-
-li a.active{
-    background-color: #3a9cff;
-}
-
-li a:hover {
-    animation-name: fade;
-    animation-duration: 190ms;
-    background-color: #444;
-}
-
- @keyframes fade{
-    from{background-color: #333;}
-    to{background-color: #444;}
 }
 }
