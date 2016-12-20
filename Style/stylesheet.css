@@ -3,9 +3,8 @@
     padding: 0;
 }
 
-a{
-    text-decoration: none;
-    
+body{
+background-color: #ece8e5;
 }
 
 @font-face{
@@ -16,6 +15,13 @@ a{
 .font{
     font-family: 'keep_calm', Fallback, sans-serif;
 }
+
+a{
+    text-decoration: none;
+    
+}
+
+
 header{
     margin-top: 0px;
     padding:10px;
@@ -34,10 +40,6 @@ footer{
     
 }
 
-#selfie{
-    width: 150px;
-
-}
 
 .intro{
     display: inline-block;
@@ -54,8 +56,9 @@ footer{
 
 }
 
-body{
-background-color: #ece8e5;
+#selfie{
+    width: 150px;
+
 }
 
 #calvijn{
@@ -69,7 +72,7 @@ background-color: #ece8e5;
     position: absolute;
     left: 400px;
 }
-
+/* Desktop menu*/
 ul {
     list-style-type: none;
     margin: 0;
