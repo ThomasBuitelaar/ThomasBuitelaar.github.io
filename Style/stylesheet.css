@@ -41,16 +41,6 @@ footer{
 }
 
 
-.intro{
-    display: inline-block;
-    padding: 20px;
-    border: 2px;
-    margin: 10px;
-    margin-left: 0;
-    border-style: solid;
-    border-color: white;
-}
-
 .content{
     margin: 30px 50px;
 
