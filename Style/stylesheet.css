@@ -62,6 +62,9 @@ footer{
     position: absolute;
     left: 400px;
 }
+
+
+
 /* Desktop menu*/
 ul {
     list-style-type: none;
@@ -101,8 +104,9 @@ li a:hover {
     to{background-color: #444;}
 }
 
-/* This is the mobile version of the menu */
 
+
+/* This is the mobile version of the menu */
 @media (max-width: 600px){
 
     ul {
